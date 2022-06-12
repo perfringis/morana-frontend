@@ -1,0 +1,18 @@
+# modules
+node_modules
+
+# generated code
+public/bundle.js
+
+# npm
+package-lock.json
+
+# yarn
+yarn-error.log
+
+# cypress
+cypress/videos
+
+# jest
+test/__snapshots__/*
+coverage
