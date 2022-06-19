@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game-modes-selector {
+    display: inline-block;
+}
+
+.game-modes-selector-header {
+    display: flex;
+
+    background-color: #3B3C4E;
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
+    gap: 0.75rem;
+
+    height: 2.075rem;
+
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+
+    user-select: none; 
+
+    &:hover {
+        background-color: #5b5d78;
+    }
+}
+
+.game-modes-selector-header-title {
+    color: #fefefe;
+
+    font-size: 0.75rem;
+}
+
+.game-modes-selector-header-arrow {
+    color: #fefefe;
+
+    margin-left: auto;
+}
+
+.game-modes-selector-list {
+    padding-top: 0.75rem;
+}
+
+.game-modes-selector-list-item {
+    display: flex;
+
+    background-color: #3B3C4E;
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
+    gap: 0.75rem;
+
+    height: 2.075rem;
+
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+
+    user-select: none; 
+
+    color: #fefefe;
+
+    font-size: 0.75rem;
+
+    &:hover {
+        background-color: #5b5d78;
+    }
+}
