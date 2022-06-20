@@ -1,8 +1,10 @@
 const path = require('path');
 const webpack = require('webpack');
-const rules = require('./webpack.rules');
+
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const rules = require('./webpack.rules');
 
 const HOST = process.env.HOST || '0.0.0.0';
 const PORT = process.env.PORT || '8080';
@@ -10,7 +12,9 @@ const PORT = process.env.PORT || '8080';
 module.exports = {
   entry: ['react-hot-loader/patch', './src/index.jsx'],
   mode: 'development',
-  module: { rules: rules },
+  module: {
+    rules: rules
+  },
   resolve: {
     extensions: ['.js', '.jsx'],
   },
@@ -20,12 +24,9 @@ module.exports = {
     publicPath: '/',
   },
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
     historyApiFallback: true,
     host: HOST,
     hot: true,
-    inline: true,
-    noInfo: true,
     port: PORT,
   },
   devtool: process.env.WEBPACK_DEVTOOL || 'eval-source-map',

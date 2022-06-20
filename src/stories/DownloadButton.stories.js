@@ -6,7 +6,10 @@ export default {
   component: DownloadButton,
 };
 
-const Template = args => <DownloadButton {...args} />;
+const Template = args => < DownloadButton {
+  ...args
+}
+/>;
 
 export const Download = Template.bind({});
 
