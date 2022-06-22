@@ -1,3 +1,5 @@
+@import './index.scss';
+
 .sign-in {
     border:none;
     cursor: pointer;
@@ -6,7 +8,6 @@
     background-color: #2B2C3E;
     color: #8D8D9C;
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
     transition: 0.4s;
 
     &:hover {
@@ -15,7 +16,6 @@
 }
 
 .avatar-title-order {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;

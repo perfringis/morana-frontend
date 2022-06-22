@@ -1,0 +1,36 @@
+@import './index.scss';
+
+.search-hero {
+    height: 114px;
+    width: 114px;
+
+    position: relative;
+
+    background-color: #FEFEFE;
+
+    border: 3px solid #A961C7;
+}
+
+.player-account-level {
+    position: absolute;
+
+    top: 100%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    height: 18px;
+    width: 36px;
+
+    background-color: #FEFEFE;
+
+    border: 2px solid #A961C7;
+
+    font-size: 12px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}

@@ -1,3 +1,5 @@
+@import './index.scss';
+
 .get-god-pro {
     border:none;
     cursor: pointer;
@@ -6,7 +8,6 @@
     background-color: #56F2C3;
     color: #FEFEFE;
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
     transition: 0.4s;
 
     &:hover {
