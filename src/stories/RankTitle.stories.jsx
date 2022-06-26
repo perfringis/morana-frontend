@@ -2,7 +2,7 @@ import React from 'react';
 import RankTitle from '../components/RankTitle';
 
 export default {
-  title: 'RankTitle',
+  title: 'Component/RankTitle',
   component: RankTitle,
 };
 

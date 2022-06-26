@@ -2,7 +2,7 @@ import React from 'react';
 import SignInButton from '../components/SignInButton';
 
 export default {
-  title: 'SignInButton',
+  title: 'Component/SignInButton',
   component: SignInButton,
 };
 

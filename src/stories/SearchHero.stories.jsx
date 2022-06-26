@@ -2,7 +2,7 @@ import React from 'react';
 import SearchHero from '../components/SearchHero';
 
 export default {
-    title: 'SearchHero',
+    title: 'Component/SearchHero',
     component: SearchHero,
 };
 

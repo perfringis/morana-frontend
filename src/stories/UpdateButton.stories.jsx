@@ -2,7 +2,7 @@ import React from 'react';
 import UpdateButton from '../components/UpdateButton';
 
 export default {
-  title: 'UpdateButton',
+  title: 'Component/UpdateButton',
   component: UpdateButton,
 };
 

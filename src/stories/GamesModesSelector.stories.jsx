@@ -2,7 +2,7 @@ import React from 'react';
 import GamesModesSelector from '../components/GamesModesSelector';
 
 export default {
-  title: 'GamesModesSelector',
+  title: 'Component/GamesModesSelector',
   component: GamesModesSelector,
 };
 

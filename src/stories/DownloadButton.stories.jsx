@@ -2,7 +2,7 @@ import React from 'react';
 import DownloadButton from '../components/DownloadButton';
 
 export default {
-  title: 'DownloadButton',
+  title: 'Component/DownloadButton',
   component: DownloadButton,
 };
 

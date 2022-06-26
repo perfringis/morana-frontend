@@ -2,7 +2,7 @@ import React from 'react';
 import GetGodProButton from '../components/GetGodProButton';
 
 export default {
-  title: 'GetGodProButton',
+  title: 'Component/GetGodProButton',
   component: GetGodProButton,
 };
 

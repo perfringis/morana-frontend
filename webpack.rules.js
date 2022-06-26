@@ -18,4 +18,22 @@ module.exports = [{
     exclude: [/node_modules/],
     use: ['style-loader', 'css-loader', 'sass-loader'],
   },
+  {
+    test: /\.mdx?$/,
+    exclude: [/node_modules/],
+    use: [{
+      loader: 'babel-loader',
+      options: {}
+    }, {
+      loader: '@mdx-js/loader',
+      /** @type {import('@mdx-js/loader').Options} */
+      options: {}
+    }]
+  },
+  {
+    test: /\.(svg|png|jpe?g|gif)$/i,
+    use: [{
+      loader: 'file-loader',
+    }, ],
+  },
 ];
