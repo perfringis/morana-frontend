@@ -11,6 +11,6 @@ const Template = args => < GamesModesSelector {
 }
 />;
 
-export const First = Template.bind({});
+export const Default = Template.bind({});
 
-First.args = {};
+Default.args = {};

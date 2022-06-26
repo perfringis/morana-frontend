@@ -8,8 +8,8 @@ export default {
 
 const Template = args => <UpdateButton {...args} />;
 
-export const Update = Template.bind({});
+export const Default = Template.bind({});
 
-Update.args = {
+Default.args = {
   title: 'Update'
 };

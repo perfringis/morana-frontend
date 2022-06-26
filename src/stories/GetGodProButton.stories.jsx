@@ -8,8 +8,8 @@ export default {
 
 const Template = args => <GetGodProButton {...args} />;
 
-export const GetGodPro = Template.bind({});
+export const Default = Template.bind({});
 
-GetGodPro.args = {
-  title: 'Hello Storybook!'
+Default.args = {
+  title: 'Get God pro'
 };

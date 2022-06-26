@@ -12,12 +12,14 @@ const GamesModesSelector = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedOption, setSelectedOption] = useState(null);
 
-    const gameModes = ['All',
+    const gameModes = [
+        'All',
         'Ranked Solo/Duo',
         'Ranked Flex',
         'Normal Draft',
         'Normal Blind',
-        'Aram'];
+        'Aram'
+    ];
 
     const currentTitle = gameModes[0];
 

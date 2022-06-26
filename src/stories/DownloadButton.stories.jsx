@@ -11,8 +11,8 @@ const Template = args => < DownloadButton {
 }
 />;
 
-export const Download = Template.bind({});
+export const Default = Template.bind({});
 
-Download.args = {
+Default.args = {
   title: 'Download'
 };

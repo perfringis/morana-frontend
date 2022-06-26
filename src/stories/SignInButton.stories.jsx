@@ -8,8 +8,8 @@ export default {
 
 const Template = args => <SignInButton {...args} />;
 
-export const SignIn = Template.bind({});
+export const Default = Template.bind({});
 
-SignIn.args = {
+Default.args = {
   title: 'Sign In'
 };

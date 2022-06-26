@@ -11,9 +11,9 @@ const Template = args => < RankTitle {
 }
 />;
 
-export const First = Template.bind({});
+export const Default = Template.bind({});
 
-First.args = {
+Default.args = {
   season: 'S2020',
   rank: 'Challenger'
 };
