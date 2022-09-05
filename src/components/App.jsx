@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// import '../style/App.scss';
+import '../style/App.scss';
 
 const App = ({ label }) => {
   return <div className="app">
