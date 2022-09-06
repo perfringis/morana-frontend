@@ -26,7 +26,6 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     host: HOST,
-    hot: true,
     port: PORT,
   },
   devtool: process.env.WEBPACK_DEVTOOL || 'eval-source-map',
