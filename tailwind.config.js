@@ -21,6 +21,10 @@ module.exports = {
           40: "#d40012",
           50: "#b1000f",
         },
+        dark_gunmetal: "#1E1D2B",
+        roman_silver: "#8D8D9C",
+        white_custom: '#FEFEFE',
+        charleston_green: '#252736'
       },
     },
   },

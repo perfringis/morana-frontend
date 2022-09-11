@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
+
+import Main from "../sites/Main";
 
 const App = () => {
-  return <div className=''>
-  </div>
+  return <Main />;
 };
 
 export default App;
