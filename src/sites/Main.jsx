@@ -8,11 +8,11 @@ import {
 
 const Main = () => {
   return (
-    <div title="whole site" className=" bg-dark_gunmetal">
-      <div title="main content" className="flex h-screen flex-col items-center">
+    <div title="whole site">
+      <div title="main content" className="flex flex-col items-center">
         <div
           title="whole menu"
-          className="test flex w-screen flex-row bg-dark_gunmetal py-6 pl-16 pr-16"
+          className="flex w-screen flex-row bg-dark_gunmetal py-6 pl-16 pr-16"
         >
           <div
             title="logo-menu"
@@ -61,9 +61,9 @@ const Main = () => {
         </div>
         <div
           title="big logo with text"
-          className="test flex flex-row items-center text-8xl text-roman_silver"
+          className="test flex flex-row items-center text-3xl text-roman_silver"
         >
-          <BeakerIcon className="h-24 w-24" />
+          <BeakerIcon className="h-9 w-9 pr-1" />
           <div className="">MORANA</div>
         </div>
       </div>
