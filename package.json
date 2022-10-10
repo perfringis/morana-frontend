@@ -59,7 +59,7 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^6.7.1",
     "cypress": "^10.9.0",
-    "eslint": "^8.24.0",
+    "eslint": "^8.25.0",
     "eslint-plugin-react": "^7.31.9",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.0.0-alpha.14",
