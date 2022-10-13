@@ -26,6 +26,8 @@ module.exports = {
         white_custom: "#FEFEFE",
         charleston_green: "#252736",
         onyx: "#353648",
+        onyx_yellow: "#38353C",
+        banana_mania: "#FEEEB7",
       },
     },
   },

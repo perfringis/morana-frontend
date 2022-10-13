@@ -3,14 +3,24 @@ import React from "react";
 import {
   CodeBracketSquareIcon,
   ChevronDownIcon,
-} from "@heroicons/react/24/solid";
+  TvIcon,
+  HeartIcon,
+  VideoCameraIcon,
+  DocumentDuplicateIcon,
+  ListBulletIcon,
+  ChartBarIcon,
+  TrophyIcon,
+  WrenchScrewdriverIcon,
+  Cog6ToothIcon,
+  BeakerIcon,
+} from "@heroicons/react/24/outline";
 
 const New = () => {
   return (
     <div>
       <div className="h-screen w-80 bg-charleston_green">
         <div className="pt-14">
-          <div className="mx-6 flex flex-row items-center justify-center px-6">
+          <div className="mx-6 flex flex-row items-center justify-center px-6 py-3 transition hover:bg-onyx">
             <div className="mr-6 h-6 w-6 bg-fiery_rose-0" />
             <div className="text-xl text-white_custom">SMITE</div>
             <div className="ml-auto">
@@ -23,6 +33,68 @@ const New = () => {
             <div className="ml-auto pr-6">
               <ChevronDownIcon className="h-6 w-6 cursor-pointer text-roman_silver transition hover:text-white_custom" />
             </div>
+          </div>
+          <div className="flex flex-col justify-center gap-y-6 pt-12">
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <TvIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Desktop App</div>
+            </div>
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <HeartIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Support Us</div>
+            </div>
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <VideoCameraIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Live Game</div>
+            </div>
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <DocumentDuplicateIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Multi Search</div>
+            </div>
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <ListBulletIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Tier List</div>
+            </div>
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <ChartBarIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Leader Boards</div>
+            </div>
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <TrophyIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Champions</div>
+            </div>
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <WrenchScrewdriverIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Pro Builds</div>
+            </div>
+            <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
+              <div className="pr-6 pl-6">
+                <Cog6ToothIcon className="h-6 w-6" />
+              </div>
+              <div className="text-base">Settings</div>
+            </div>
+          </div>
+          <div className="mx-6 flex h-12 cursor-pointer flex-row items-center justify-start bg-onyx_yellow text-base text-banana_mania">
+            <div className="px-6">
+              <BeakerIcon className="h-6 w-6" />
+            </div>
+            <div className="">Get God Pro</div>
           </div>
         </div>
       </div>
