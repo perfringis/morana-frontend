@@ -13,6 +13,8 @@ import {
   WrenchScrewdriverIcon,
   Cog6ToothIcon,
   BeakerIcon,
+  UserCircleIcon,
+  EllipsisHorizontalIcon,
 } from "@heroicons/react/24/outline";
 
 const New = () => {
@@ -28,13 +30,13 @@ const New = () => {
             </div>
           </div>
           <div className="mx-6 mt-12 flex h-12 flex-row items-center justify-center bg-onyx">
-            <div className="mr-6 ml-6 h-6 w-6 bg-turquoise-0" />
+            <div className="mx-6 h-6 w-6 bg-turquoise-0" />
             <div className="text-base text-white_custom">SMITE</div>
             <div className="ml-auto pr-6">
               <ChevronDownIcon className="h-6 w-6 cursor-pointer text-roman_silver transition hover:text-white_custom" />
             </div>
           </div>
-          <div className="flex flex-col justify-center gap-y-6 pt-12">
+          <div className="flex flex-col justify-center gap-y-4 pt-12">
             <div className="mx-6 flex cursor-pointer flex-row items-center justify-start text-roman_silver transition hover:text-white_custom">
               <div className="pr-6 pl-6">
                 <TvIcon className="h-6 w-6" />
@@ -95,6 +97,15 @@ const New = () => {
               <BeakerIcon className="h-6 w-6" />
             </div>
             <div className="">Get God Pro</div>
+          </div>
+          <div className="flex h-20 flex-row items-center justify-start gap-x-6 bg-onyx px-6 text-base">
+            <div className="">
+              <UserCircleIcon className="h-8 w-8 cursor-pointer text-white_custom" />
+            </div>
+            <div className="text-white_custom">Guest Account</div>
+            <div className="ml-auto">
+              <EllipsisHorizontalIcon className="h-8 w-8 cursor-pointer text-roman_silver" />
+            </div>
           </div>
         </div>
       </div>
