@@ -19,7 +19,7 @@ import {
 
 const New = () => {
   return (
-    <div>
+    <div className="flex flex-row">
       <div className="flex h-screen w-80 flex-col bg-charleston_green">
         <div className="mx-6 mt-12 flex h-12 flex-row items-center justify-center px-6 transition hover:bg-onyx">
           <div className="mr-6 h-6 w-6 bg-fiery_rose-0" />
@@ -105,6 +105,17 @@ const New = () => {
             <div className="text-white_custom">Guest Account</div>
             <div className="ml-auto cursor-pointer text-roman_silver transition hover:text-white_custom">
               <EllipsisHorizontalIcon className="h-8 w-8" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-screen w-screen bg-dark_gunmetal">
+        <div className="mt-12 ml-88 flex h-12 w-156 flex-col bg-gunmetal">
+          <div className="flex h-12 w-32 flex-row items-center justify-evenly bg-dark_purple text-base text-rich_lavender">
+            <div className="">SMITE</div>
+            <div className="">EUW</div>
+            <div className="">
+              <ChevronDownIcon className="h-6 w-6 cursor-pointer" />
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import New from "../sites/New";
 import Test from "../sites/Test";
 
 const App = () => {
-  return <Test />;
+  return <New />;
 };
 
 export default App;
