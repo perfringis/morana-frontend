@@ -15,6 +15,7 @@ import {
   BeakerIcon,
   UserCircleIcon,
   EllipsisHorizontalIcon,
+  MagnifyingGlassIcon,
 } from "@heroicons/react/24/outline";
 
 const New = () => {
@@ -110,13 +111,26 @@ const New = () => {
         </div>
       </div>
       <div className="h-screen w-screen bg-dark_gunmetal">
-        <div className="mt-12 ml-88 flex h-12 w-156 flex-col bg-gunmetal">
-          <div className="flex h-12 w-32 flex-row items-center justify-evenly bg-dark_purple text-base text-rich_lavender">
-            <div className="">SMITE</div>
+        <div className="mt-12 ml-88 flex h-12 w-156 flex-row items-center bg-gunmetal">
+          <div className="flex h-12 w-24 flex-row items-center justify-evenly bg-dark_purple text-base text-rich_lavender">
             <div className="">EUW</div>
             <div className="">
               <ChevronDownIcon className="h-6 w-6 cursor-pointer" />
             </div>
+          </div>
+          <div className="flex h-full w-full flex-row items-center justify-center">
+            <div className="pl-6 text-base text-white_custom">
+              Search your hero name
+            </div>
+            <div className="ml-auto pr-6">
+              <MagnifyingGlassIcon className=" h-6 w-6 text-roman_silver" />
+            </div>
+          </div>
+        </div>
+        <div className="pt-24 pl-48">
+          <div className="h-6 text-xs flex flex-row bg-gunmetal text-white_custom items-center justify-center">
+            <div>S9</div>
+            <div>Challenger</div>
           </div>
         </div>
       </div>
