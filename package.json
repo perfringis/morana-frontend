@@ -58,7 +58,7 @@
     "babel-jest": "^29.3.1",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.1",
-    "cypress": "^11.1.0",
+    "cypress": "^11.2.0",
     "eslint": "^8.25.0",
     "eslint-plugin-react": "^7.31.9",
     "file-loader": "^6.2.0",
