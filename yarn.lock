@@ -2367,19 +2367,19 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/cli@^6.5.12":
-  version "6.5.12"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.5.12.tgz#8ed6850a81c693b167e6f34ca2082d0c96d30b45"
-  integrity sha512-QMtopzK5sFLyOS/i3STjS8V+7J+r6HnOKaib8Tt6l90uDYACXbl7oM1BCcabKNeS6UIk9m/Z4KCirhfBAtyN8Q==
+"@storybook/cli@^6.5.14":
+  version "6.5.14"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.5.14.tgz#8c8a5ed09d2a04643d8cd5594064b5cb0c0d5790"
+  integrity sha512-rhVtSJOp2Y06v8G0QyxHY3PrLfdEoKhSax3StY49D3XVf5KFn/xoQ5Y+Sz9zPIIWrRSZSk/QmbPWGpS0sRwY4g==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
-    "@storybook/codemod" "6.5.12"
-    "@storybook/core-common" "6.5.12"
-    "@storybook/csf-tools" "6.5.12"
-    "@storybook/node-logger" "6.5.12"
+    "@storybook/codemod" "6.5.14"
+    "@storybook/core-common" "6.5.14"
+    "@storybook/csf-tools" "6.5.14"
+    "@storybook/node-logger" "6.5.14"
     "@storybook/semver" "^7.3.2"
-    "@storybook/telemetry" "6.5.12"
+    "@storybook/telemetry" "6.5.14"
     boxen "^5.1.2"
     chalk "^4.1.0"
     commander "^6.2.1"
@@ -2478,16 +2478,16 @@
     core-js "^3.8.2"
     global "^4.4.0"
 
-"@storybook/codemod@6.5.12":
-  version "6.5.12"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.5.12.tgz#b078ea450db042c7437eee04b81c577c08ee7c97"
-  integrity sha512-KFh9L6B3mpRaKqe3MTiuWWoNanB+tHtcnDzZH4QSKRYB2AgWY3jmuEXOQVaKrR65e3WjFccTDMYyU+ZnK9RofA==
+"@storybook/codemod@6.5.14":
+  version "6.5.14"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.5.14.tgz#b04410f98571394e14f0c4f83ccf377c162f3d38"
+  integrity sha512-/u7bzXstueGE6VB3FTidd2jrd7TxdbNM/Am6eCrrApHd92WZRplKlgyZezxiCooUf3mbtdTB+MfqNqxv2JIKag==
   dependencies:
     "@babel/types" "^7.12.11"
     "@mdx-js/mdx" "^1.6.22"
     "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    "@storybook/csf-tools" "6.5.12"
-    "@storybook/node-logger" "6.5.12"
+    "@storybook/csf-tools" "6.5.14"
+    "@storybook/node-logger" "6.5.14"
     core-js "^3.8.2"
     cross-spawn "^7.0.3"
     globby "^11.0.2"
@@ -2843,6 +2843,26 @@
   version "6.5.12"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.5.12.tgz#7740becd059686001d4c1b4db3f43e792362d918"
   integrity sha512-BPhnB1xJtBVOzXuCURzQRdXcstE27ht4qoTgQkbwUTy4MEtUZ/f1AnHSYRdzrgukXdUFWseNIK4RkNdJpfOfNQ==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@babel/generator" "^7.12.11"
+    "@babel/parser" "^7.12.11"
+    "@babel/plugin-transform-react-jsx" "^7.12.12"
+    "@babel/preset-env" "^7.12.11"
+    "@babel/traverse" "^7.12.11"
+    "@babel/types" "^7.12.11"
+    "@storybook/csf" "0.0.2--canary.4566f4d.1"
+    "@storybook/mdx1-csf" "^0.0.1"
+    core-js "^3.8.2"
+    fs-extra "^9.0.1"
+    global "^4.4.0"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+
+"@storybook/csf-tools@6.5.14":
+  version "6.5.14"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.5.14.tgz#fe36c8570c1f9e27aa4536f09a729a61598a1255"
+  integrity sha512-PgCKgyfD6UD9aNilDxmKJRbCZwcZl8t8Orb6+vVGuzB5f0BV92NqnHS4sgAlFoZ+iqcQGUEU9vRIdUxNcyItaw==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/generator" "^7.12.11"
@@ -3322,6 +3342,24 @@
   dependencies:
     "@storybook/client-logger" "6.5.12"
     "@storybook/core-common" "6.5.12"
+    chalk "^4.1.0"
+    core-js "^3.8.2"
+    detect-package-manager "^2.0.1"
+    fetch-retry "^5.0.2"
+    fs-extra "^9.0.1"
+    global "^4.4.0"
+    isomorphic-unfetch "^3.1.0"
+    nanoid "^3.3.1"
+    read-pkg-up "^7.0.1"
+    regenerator-runtime "^0.13.7"
+
+"@storybook/telemetry@6.5.14":
+  version "6.5.14"
+  resolved "https://registry.yarnpkg.com/@storybook/telemetry/-/telemetry-6.5.14.tgz#b2e8a99ed36fc97451a1f695792a79605b5f7746"
+  integrity sha512-AVSw7WyKHrVbXMSZZ0fvg3oAb8xAS7OrmNU6++yUfbuqpF0JNtNkNnRSaJ4Nh7Vujzloy5jYhbpfY44nb/hsCw==
+  dependencies:
+    "@storybook/client-logger" "6.5.14"
+    "@storybook/core-common" "6.5.14"
     chalk "^4.1.0"
     core-js "^3.8.2"
     detect-package-manager "^2.0.1"
