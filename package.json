@@ -45,7 +45,7 @@
     "@storybook/addon-docs": "^6.5.14",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",
-    "@storybook/addon-links": "^6.5.13",
+    "@storybook/addon-links": "^6.5.15",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/builder-webpack5": "^6.5.15",
     "@storybook/cli": "^6.5.14",
